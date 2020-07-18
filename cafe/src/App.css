@@ -1,38 +1,122 @@
-.App {
+body {
+  font-family: "Open Sans", sans-serif; 
+  background-color: rgba(214, 206, 206, 0.5);
+
+}
+
+h1, h2, h3 {
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+}
+
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+/*  background-image: linear-gradient(to right, #dad4f8, rgb(184, 232, 247), #caeef7);*/
+  background:url('./images/cup1.jpg') no-repeat center center / cover ;
+  color: white; 
+}
+
+.banner {
+      border: 2px solid #fff;
+      padding: 8px 30px 4px;
+   /*   background-image: linear-gradient(to right,  #ddc0e2 , #b6f1f1, #caeef7);*/
+      background-clip: padding-box;
+      text-align: center;
+      background-color: rgba(214, 206, 206, 0.5);
+}
+
+.navbar {
+  width: 100%;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding: 0px;
+  background-color: rgb(214, 225, 236);
+}
+
+.navbar ul {
+  list-style-type: none; 
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  width: 90%;
+
+}
+
+.navbar li {
+  float: left;
+  padding: 2px;
+  width: 150px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+}
+
+h11 {
+  font-size: 11px;
+}
+
+
+
+.row-content {
+  padding: 10px 0;
+  min-height: 100px;
+  border: none;
+  margin: 20px 50px;
+  
+}
+
+.carousel-caption {
+  background-color: rgba(214, 206, 206, 0.5);
+}
+
+h4 {
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(116, 101, 101);
+  font-size: 300%;
+}
+
+iframe {
+  display:block;
+  margin: auto;
+} 
+
+.center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.matcha {
+  background:url('./images/matcha.jpg') no-repeat center center / cover ;
+  height:250px;
+  color: white; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+input, button {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display:inline-block;
+
 }
