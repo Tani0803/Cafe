@@ -14,7 +14,7 @@ h1, h2, h3 {
   margin: 0 !important;
   padding: 30px;
 /*  background-image: linear-gradient(to right, #dad4f8, rgb(184, 232, 247), #caeef7);*/
-  background:url('/assets/images/cup1.jpg') no-repeat center center / cover ;
+  background:url('http://127.0.0.1:3001/images/cup1.jpg') no-repeat center center / cover ;
   color: white; 
 
 }
@@ -77,7 +77,7 @@ iframe {
 }
 
 .matcha {
-  background:url('/assets/images/matcha.jpg') no-repeat center center / cover ;
+  background:url('http://127.0.0.1:3001/images/matcha.jpg') no-repeat center center / cover ;
   height:250px;
   color: white; 
 }
@@ -104,4 +104,24 @@ input, button {
 
   display:inline-block;
 
+}
+.card-img {
+  width: 80%;
+  margin-bottom: 10%;
+  
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h4 {
+  font-family: "Lobster", cursive !important;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(116, 101, 101) !important;
+  font-size: 300% !important;
 }

@@ -1,0 +1,3 @@
+export const ADD_COFFEE = 'ADD_COFFEE';
+export const COFFEE_LOADING = 'COFFEE_LOADING';
+export const COFFEE_FAILED = 'COFFEE_FAILED';
